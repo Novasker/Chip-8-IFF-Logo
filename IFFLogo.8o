@@ -2,32 +2,32 @@
 		# Limpa a tela
     clear          
     
-		# Define o Stack Pointer para o primeiro bloco de memória
+		# Define o Stack Pointer para o primeiro bloco de memÃ³ria
     i := firstColumn
 		
 		# Define as coordenadas do desenho
     v0 := 24      
     v1 := 8       
 
-    # Desenha na tela 15 bytes de memória na posição desejada
+    # Desenha na tela 15 bytes de memÃ³ria na posiÃ§Ã£o desejada
     sprite v0 v1 15
 		
-		# Define o Stack Pointer para o segundo bloco de memória
+		# Define o Stack Pointer para o segundo bloco de memÃ³ria
 		i := secondColumn
 		
 		# Atualiza a coordenada X na tela
 		v0 := 29
 		
-		# Desenha na tela 15 bytes de memória na posição desejada
+		# Desenha na tela 15 bytes de memÃ³ria na posiÃ§Ã£o desejada
 		sprite v0 v1 15
 		
-		# Define o Stack Pointer para o terceiro bloco de memória
+		# Define o Stack Pointer para o terceiro bloco de memÃ³ria
 		i := thirdColumn
 		
 		# Atualiza a coordenada X na tela
 		v0 := 34
 		
-		# Desenha na tela 15 bytes de memória na posição desejada
+		# Desenha na tela 15 bytes de memÃ³ria na posiÃ§Ã£o desejada
 		sprite v0 v1 15
 
 # Loop para encerrar o programa
